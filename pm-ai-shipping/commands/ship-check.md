@@ -27,7 +27,7 @@ Ensure the system docs exist and are current (run `/document-app` if they're mis
 
 ### Step 2: Wire the agent operating context
 
-Create or refresh `CLAUDE.md` (and a thin `AGENTS.md` pointing to it) **derived from** the system docs — the operating instructions the next AI coding agent inherits: what the system is, the trust boundaries, what may and may not be touched, where the guardrails are. This is a different artifact from the system docs: instructions, not description.
+Create or refresh `AGENTS.md` (and a thin `AGENTS.md` pointing to it) **derived from** the system docs — the operating instructions the next AI coding agent inherits: what the system is, the trust boundaries, what may and may not be touched, where the guardrails are. This is a different artifact from the system docs: instructions, not description.
 
 ### Step 3: Security audit
 
@@ -50,7 +50,7 @@ Run `/derive-tests` to turn the documented rules — and the gaps the audits jus
 | Doc | Status (present / stale / missing / n/a) | Notes |
 
 ### Agent Context
-CLAUDE.md / AGENTS.md: [created / updated / already current]
+AGENTS.md / AGENTS.md: [created / updated / already current]
 
 ### Test Coverage
 [Rules pinned by tests that exist today · proposed but not yet written · guarded-live/manual · and the documented rules nothing verifies yet]

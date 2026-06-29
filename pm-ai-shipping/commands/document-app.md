@@ -57,4 +57,4 @@ Summarize what was created or updated, what was skipped and why, and any gaps wh
 - These docs describe *this* system — keep generic theory and finished templates out.
 - Write for two readers: a human reviewer and the next AI coding agent.
 - Don't include an "updated date" line.
-- The agent operating-context file (`CLAUDE.md` / `AGENTS.md`) is produced separately at the `/ship-check` handoff step — it's instructions derived from these docs, not system documentation.
+- The agent operating-context file (`AGENTS.md` / `AGENTS.md`) is produced separately at the `/ship-check` handoff step — it's instructions derived from these docs, not system documentation.

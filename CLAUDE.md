@@ -1,4 +1,4 @@
-# CLAUDE.md
+# AGENTS.md
 
 Guidance for AI agents (Claude Code, Cowork, and others) working in this repository. This file is the single source of truth for how the project is structured and maintained.
 
@@ -16,8 +16,8 @@ pm-skills/                           <- repo root
 ├── .docs/images/                    <- images used by README (webp, gif)
 ├── .gitattributes
 ├── .gitignore
-├── CLAUDE.md                        <- this file (agent guidance, single source of truth)
-├── AGENTS.md                        <- pointer to CLAUDE.md (for non-Claude agents)
+├── AGENTS.md                        <- this file (agent guidance, single source of truth)
+├── AGENTS.md                        <- pointer to AGENTS.md (for non-Claude agents)
 ├── CONTRIBUTING.md                  <- contributor guidelines
 ├── README.md                        <- public documentation (GitHub)
 ├── LICENSE                          <- MIT
